@@ -249,6 +249,9 @@ body{
 .header-link:hover svg{
     fill: var(--brand-color);
 }
+.header-contact-icon{
+    fill: #757575;
+}
 /* -------------HERO----------- */
 .hero{
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
@@ -344,11 +347,13 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
+.team{
+    background-color: #F5F4FA;
+}
 .team-container{
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: #F5F4FA;
+    
 }
 .team-list{
     padding-top: 50px;
@@ -396,6 +401,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 .clients-icon{
    fill: #AFB1B8;
