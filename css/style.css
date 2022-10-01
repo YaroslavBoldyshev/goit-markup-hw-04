@@ -401,7 +401,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
 }
 .clients-icon{
    fill: #AFB1B8;
